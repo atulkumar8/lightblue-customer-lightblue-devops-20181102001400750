@@ -1,0 +1,15 @@
+package org.cts.com;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+
+@ComponentScan({"org.cts.com"})
+@EnableAutoConfiguration
+@SpringBootApplication
+public class CtsApplication {
+	public static void main(String[] args) {
+		SpringApplication.run(CtsApplication.class, args);
+	}
+}
