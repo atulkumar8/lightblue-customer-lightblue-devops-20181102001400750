@@ -7,7 +7,7 @@ applications:
   memory: 256M
   disk_quota: 1024M
   instances: 1
-  domain: mybluemix.net
+  domain: bluemix.net
   services:
     - lightblue-cloudant
 env:
